@@ -71,11 +71,6 @@ SAMPLE_VALIDATOR_BLS_PUBLIC_KEY: A sample BLS public key of a validator.<br>
 The code uses the Web3 library to connect to the Ethereum network using the provided WEB3_PROVIDER_URL.<br>
 A contract object is instantiated using the Web3.eth.Contract method, passing the SAVETH_REGISTRY_ABI and SAVETH_REGISTRY_CONTRACT_ADDRESS as arguments.
  
-# Utility Function
- 
-toJSONConverter(obj): A utility function that converts a given object to JSON string format. It converts BigInt values to string representations.
-<br>
-
 
 
 # Class: IndexingStakehouseValidator
