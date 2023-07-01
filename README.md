@@ -84,34 +84,34 @@ indexValidatorBalanceStore: An array to store the indexed validator balances.
  
 Method: getAssociatedIndexId(blsPublicKey)
 <br><br>
-Retrieves the associated index ID (hashed key) for a given BLS public key using the associatedIndexIdForKnot function from the contract.
+Retrieves the associated index ID (hashed key) for a given BLS public key using the associatedIndexIdForKnot function from the contract.<br>
 Returns the associated index ID.
  
 Method: fetchBalance(blsPublicKey, associatedIndexId)
 <br><br>
-Fetches the balance of a stakehouse validator associated with the given BLS public key and associated index ID.
-Uses the knotDETHBalanceInIndex function from the contract.
+Fetches the balance of a stakehouse validator associated with the given BLS public key and associated index ID.<br>
+Uses the knotDETHBalanceInIndex function from the contract.<br>
 Returns the balance.
  
 Method: getValidatorBalanceOnEpochs(blsPublicKey)
 <br><br>
-Retrieves the balance of a stakehouse validator on each epoch.
-Retrieves the associated index ID for the given BLS public key.
-Sets an epoch interval to fetch the balance at each epoch.
-Stores the epoch-wise balance in the balanceEpochWiseStore array.
+Retrieves the balance of a stakehouse validator on each epoch.<br>
+Retrieves the associated index ID for the given BLS public key.<br>
+Sets an epoch interval to fetch the balance at each epoch.<br>
+Stores the epoch-wise balance in the balanceEpochWiseStore array.<br>
 Returns the balanceEpochWiseStore array.
  
 Method: processMultipleValidatorKeys(validatorsBLSPublicKeys)
 <br><br>
-Processes balances for multiple stakehouse validator keys.
-Iterates over each BLS public key in the validatorsBLSPublicKeys array.
-Calls getValidatorBalanceOnEpochs to retrieve the balance on each epoch for each validator.
+Processes balances for multiple stakehouse validator keys.<br>
+Iterates over each BLS public key in the validatorsBLSPublicKeys array.<br>
+Calls getValidatorBalanceOnEpochs to retrieve the balance on each epoch for each validator.<br>
 Stores the balances in the indexValidatorBalanceStore array.
  
 Method: run(validatorsBLSPublicKeys)
 <br><br>
-Runs the indexing process for multiple stakehouse validators.
-Calls the processMultipleValidatorKeys method with the validatorsBLSPublicKeys array.
+Runs the indexing process for multiple stakehouse validators.<br>
+Calls the processMultipleValidatorKeys method with the validatorsBLSPublicKeys array.<br>
 Prints the indexValidatorBalanceStore array.
  
 # Sample Output of Indexed Balances
