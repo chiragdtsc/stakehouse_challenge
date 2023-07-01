@@ -1,0 +1,17 @@
+{
+  "name": "web3project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "npm run compile && npm run unit -- --passWithNoTests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.12",
+    "web3": "^4.0.2"
+  }
+}
