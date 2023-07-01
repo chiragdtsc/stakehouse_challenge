@@ -51,9 +51,10 @@ advantage of these asynchronous features to execute multiple tasks concurrently,
 
 
 Command to run code: <br>
+   ```cd src```<br>
   ```npm start```
   
-The code in ```main.js``` is responsible for indexing the balance of stakehouse validators in Ethereum using the savETH registry contract. The documentation below provides an overview of the code structure and functionality.
+The code in ```src/main.js``` is responsible for indexing the balance of stakehouse validators in Ethereum using the savETH registry contract. The documentation below provides an overview of the code structure and functionality.
  
 # Prerequisites
 Node.js and npm should be installed.
@@ -116,6 +117,7 @@ Prints the indexValidatorBalanceStore array.
  
 # Sample Output of Indexed Balances
 <br><br>
+The key is the associated Index Id of Knot mapped with the list of pairs of epoch and balance of the validator.
 ```
 [
    {
