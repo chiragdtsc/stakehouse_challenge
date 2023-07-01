@@ -119,9 +119,81 @@ Runs the indexing process for multiple stakehouse validators.
 Calls the processMultipleValidatorKeys method with the validatorsBLSPublicKeys array.
 Prints the indexValidatorBalanceStore array.
  
-# Usage Example
-<br>
-Define the array validatorsBLSPublicKeys containing the BLS public keys of the validators to be indexed.<br>
-Create an instance of the IndexingStakehouseValidator class.<br>
-Call the run method with the validatorsBLSPublicKeys array.
+# Sample Output of Indexed Balances
+<br><br>
+```
+[
+   {
+      "367":[
+         {
+            "epoch":1688230819843,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230820845,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230821847,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230822850,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230823853,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230824854,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230825856,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230826857,
+            "balance":"24136321868000000000"
+         }
+      ]
+   },
+   {
+      "367":[
+         {
+            "epoch":1688230819851,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230820852,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230821852,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230822858,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230823859,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230824860,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230825864,
+            "balance":"24136321868000000000"
+         },
+         {
+            "epoch":1688230826865,
+            "balance":"24136321868000000000"
+         }
+      ]
+   }
+]
 
