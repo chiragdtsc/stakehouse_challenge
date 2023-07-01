@@ -36,7 +36,9 @@
 
 To scale the solution to handle many BLS public keys efficiently, we can think about the following techniques:
 
-- Parallel Processing: Utilize asynchronous processing and concurrency to fetch balances for multiple BLS public keys simultaneously.
+- Parallel Processing: Utilizing asynchronous processing and concurrency to fetch balances for multiple BLS public keys simultaneously.
+- Asynchronous Processing: JavaScript and web3.js support asynchronous programming using Promises, async/await, or callback functions. Taking     
+advantage of these asynchronous features to execute multiple tasks concurrently, making efficient use of the available resources and minimizing waiting time.
 - Batch Processing: Group multiple requests and fetch balances in batches to minimize network overhead.
 - Optimization: Continuously optimize the code, data structures, and algorithms to improve efficiency and reduce resource consumption.
 
