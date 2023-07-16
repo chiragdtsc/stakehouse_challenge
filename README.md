@@ -1,8 +1,8 @@
-# index-stakehouse-validators-challenge
+# index-stakehouse-validators
 
 
 
-# Understanding the Challenge:
+# Understanding the Problem:
 
 - It involves indexing data related to stakehouse validators in Ethereum.
 - The goal is to index the balance of a stakehouse validator using their BLS public key and the savETH registry contract.
